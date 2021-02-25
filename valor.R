@@ -1,4 +1,4 @@
-valores<-read.csv('Parse_primer intento.csv')
+valores<-read.csv('Intento.csv')
 hmm<-function(valores){
   +     v3<-97
   +     for (a in c(valores$RESULTADO_LAB)){
@@ -9,3 +9,7 @@ hmm<-function(valores){
         +         }
     +     }
   + }
+
+df <- data.frame( c( 183, 85, 40), c( 175, 76, 35), c( 178, 79, 38 ))
+names(df) <- c("Height", "Weight", "Age")
+
